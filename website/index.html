@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <title> Weather API</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" text="text/css" href="css/style.css">
+        
+    </head>
+    <body>
+        <div id = "app" class="app">
+            <h1>Weather App Display</h1>
+            <form class="app__form">
+                <label for ="zip"> Enter US ZIP code</label>
+                <input id="zip" class="input-txt display-active" name ="zip" type="text" pattern="[0-9]{1,5}" maxlength="5" class= "input-txt" placeholder="enter zip code here" required/>            
+                <textarea id='feelings' class="comment-txt display-active" placeholder="Enter your comments" row="9" col ="50"></textarea>
+                <!-- <input type="submit"  class="check-btn"/> -->
+                <button id="generate" class="display-active">Generate</button>
+            </form>
+            <div id = "entryHolder">
+                <div id ="date" class="weather-display"></div>
+                <div id="name" class="weather-display"></div>
+                <div id="temp" class="weather-display"></div>
+                <div id ="feels" class="weather-display"></div>
+                <div id ="description" class="weather-display"></div>
+                <div id= "content" class="weather-display"></div>
+            </div>
+        </div>
+        <!-- <script src="./js/app.js"></script> -->
+        <script src="./js/app.js"></script>
+    </body>
+</html>

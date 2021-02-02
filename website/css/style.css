@@ -1,0 +1,93 @@
+
+/******INITIALIZE & BODY *****/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+    
+    font-family: 'open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    min-height: 100vh;
+    color: rgba(17, 13, 13, 0.842);
+    background-color: whitesmoke;
+    
+}
+.app{
+    margin: 2px auto;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 60vh;
+    border: 5px solid rgba(199, 161, 161, 0.842);
+    border-radius: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(216, 200, 200, 0.842);
+
+}
+h1{
+color: rgba(104, 86, 86, 0.842);
+}
+.app__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+
+}
+.input-txt{
+    height: 50%;
+    width: 40%;
+    text-align: center;
+
+}
+#generate{
+    text-transform: uppercase;
+    padding:8px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid rgba(117, 72, 72, 0.842);
+    border-radius: 15%;
+    
+}
+.comment-txt{
+    
+    height: 100%;
+    width: 80%; 
+     margin: 20px;
+}
+.display-active:hover,
+.display-active:focus,
+.display-active:link,
+.display-active:active,
+.display-active:visited
+{
+    border: 2px solid rgba(117, 75, 79, 0.842);
+    border-radius: 10%;
+    transition: all .2s;
+    
+}
+#entryHolder{
+    display: flex;
+    border: 3px solid rgba(136, 117, 117, 0.842);
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 3px;
+
+}
+.weather-display{
+    color:rgba(110, 67, 67, 0.842);
+    font-size: 2rem;
+}
